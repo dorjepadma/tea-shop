@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    color: white;
+
+}
+
+h2 {
+    font: Garamond;
+    text-align: center;
+}
+
+}
+
+body {
+    background-color: lightseagreen;
+
+}
+h3 {
+    font-size: 36;
+    text-align: center;
+}
