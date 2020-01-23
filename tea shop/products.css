@@ -22,20 +22,20 @@
 
 #teas li:hover {
     box-shadow: 2px 2px 3px red;
-    /* transform: translated (-1px,-1px,0) what does this do?*/
+    transform: translated (-1px,-1px,0) what does this do?
 }
 #teas li h3 {
     font-size: 1;
     margin: 5px;
 }
 img{
-    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align: center;
 }
 
-#teas li img {
-    width: 50%;
-    margin-top: 10px
-}
 .price {
     font-size: 1;
     position: absoolute;
@@ -49,6 +49,10 @@ img{
 }
 .price button {
     transition: color 200ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
 }
 
