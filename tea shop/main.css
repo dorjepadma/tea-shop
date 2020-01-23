@@ -15,6 +15,9 @@ h2 {
 
 body {
     background-color: lightseagreen;
+    text-align: center;
+    font-size: 48;
+    font-family: Verdana, Tahoma, sans-serif
 }
 
 h3 {
@@ -24,6 +27,14 @@ h3 {
 
 .tea-master-image {
     height: 250px;
-    margin-top: -35px;
+    margin-top: 50px;
     align-content: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150;
+    width: 50%;
+       
 }
