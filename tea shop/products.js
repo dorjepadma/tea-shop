@@ -1,7 +1,7 @@
-import teas from '../tea shop/data/tea.js';
-import sortTea from '../tea shop/sort-tea.js';
+import teas from './tea.js';
+import sortTea from './sort-tea.js';
 
-const list = document.getElementbyId('tea');
+const list = document.getElementById('tea');
 
 for (let i = 0; i < teas.length; i++) {
     const tea = teas[i];
