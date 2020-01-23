@@ -6,23 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../../tea shop/main.css">
-    <link rel="stylesheet" href="../products.css">
+    <link rel="stylesheet" href="shopping-cart.css">
 </head>
 <header>
     <h2>A quaint little Tea Shop</h2>
-    <nav href="products">Tea </nav>
-    <nav href="home">home </nav>
+    <nav>
+        <a href="../">Home</a>
+        <a href="../products/">tea</a>
+        <a href="/shopping-cart/">Shopping Cart</a>
+    </nav>
     </header>
 <body>
-    <div id="container">
-        <h3>My tea choices</h3>
+    <table> 
+        <thead>
+            <tr>
+                <th class="align-left">Tea</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Order Total:</th>
+                <th id="order-total-cell"></th>
+            </tr>
+        </tfoot>
+    </table>
+    <p class="container">
+        <button>Order Tea Now</button>
+        <!-- <h3>My tea choices</h3>
+       
         <ul id="tea choices">
             <p>The Tea you ordered =</p>
             <p>The amount of tea you ordered =</p>
             <p>your order total =</p>
-        </ul>
-        <button type="button">order tea</button>
-    </div>
+        </ul> -->
+
+         
+    </p>
+   
     <div>
         <img src="../../assets/Emperor-Shen-Nong.jpg"  class="tea-master-image"/> 
     </div>
