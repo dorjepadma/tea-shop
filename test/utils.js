@@ -6,10 +6,10 @@ import { findById } from '../tea shop/common/utils.js';
 
 const test = QUnit.test;
 
-test('find tea by Id', (assert) => {
+test('find tea by Id', assert => {
 
     const id = 'oolong';
-    const expected = 'oolong';
+    const expected = 'high mountain oolong';
 
     const foundTea = findById (tea, id);
     assert.ok(foundTea);

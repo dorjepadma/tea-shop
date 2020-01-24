@@ -45,6 +45,6 @@ tbody td {
 }
 
 tfoot {
-    background: #999;
+    background: rgb(153, 153, 153);
     color: white;
 }
