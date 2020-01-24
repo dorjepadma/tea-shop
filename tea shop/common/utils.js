@@ -14,8 +14,8 @@ export function toUSD(number) {
         currency: 'USD',
     });
 }
-export function calcLineTotal(quantity, Price) {
-    const amount = quantity * Price;
+export function calcLineTotal(quantity, price) {
+    const amount = quantity * price;
     return roundCurrency(amount);
 }
 
@@ -28,7 +28,7 @@ export function calcOrderTotal(cart, teas) {let orderTotal = 0;
         const lineItem = cart[i];
         const tea = findById (teas, lineItem.id);
         const lineTotal = (calcLineTotal.quantity, tea.price);
-        orderTotal += lineTotal;
+        orderTotal + lineTotal;
     }
     return orderTotal;
     
