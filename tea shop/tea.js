@@ -5,7 +5,7 @@ const whiteTea = {
     description: 'a light white tea with almond, stone fruit, and grass notes.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 4.00,
+    price: 4.00,
 
 };
 const longJingTea = {
@@ -15,7 +15,7 @@ const longJingTea = {
     description: 'a rich but light green tea with a buttery mouth feel and notes of fresh grass.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 16.00,
+    price: 16.00,
 
 };
 const DogHeadGreen = {
@@ -25,7 +25,7 @@ const DogHeadGreen = {
     description: 'a rich green tea with notes of chocolate and stone fruit.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 6.00,
+    price: 6.00,
 
 };
 const oolong = {
@@ -35,7 +35,7 @@ const oolong = {
     description: 'a deep floral oolong from Fujian, good for at least 12 pours.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 6.00,
+    price: 6.00,
 
 };const bigRedRobe = {
     id: 'Da Hong Pao',
@@ -44,7 +44,7 @@ const oolong = {
     description: 'a rich black tea with notes of leather and cigar as well as a lingering sweetness.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 8.00,
+    price: 8.00,
 
 };const yunnanGold = {
     id: 'black tea  ',
@@ -53,7 +53,7 @@ const oolong = {
     description: 'a rich black tea from Yunnan, the tea trees are over 250 years old, giving a great sweetness and delightful aroma of fruit.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 4.00,
+    price: 4.00,
 
 };const Puerh = {
     id: 'cooked puer',
@@ -62,7 +62,7 @@ const oolong = {
     description: 'a dark and lingering fermented tea with a rich taste of wood and mushroom. Strong butter umami.',
     category: 'Camillia Sineses',
     Weight: '1 .oz',
-    Price: 4.00,
+    price: 4.00,
 };
 const tea = [
 

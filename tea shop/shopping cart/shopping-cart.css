@@ -1,0 +1,50 @@
+table, .order-now-container {
+    widows: 100%;
+    max-width:750px;
+    margin:auto;
+}
+.order-now-container{
+    text-align: right;
+}
+.order-now-container button {
+    margin-top: 30px;
+    height :50 px;
+    width: 200px;
+    font-size: 1.25em;
+    background: lightgreen;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+thead {
+    background: white;
+    color: black;
+}
+table th, table td {
+text-align: left;
+padding: 10px
+}
+.align-left{
+    text-align: left;
+}
+tbody {
+    background: white;
+}
+tbody tr:nth-child(even) {
+    background: black;
+}
+
+tbody td {
+    font-size: 0.9rem;
+}
+
+.line-item-total {
+    font-weight: bolder;
+}
+
+tfoot {
+    background: rgb(153, 153, 153);
+    color: white;
+}

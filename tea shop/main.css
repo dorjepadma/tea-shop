@@ -2,8 +2,8 @@
 
 header {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: white;
 }
@@ -11,13 +11,15 @@ header {
 h2 {
     font: Garamond;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     background-color: lightseagreen;
     text-align: center;
     font-size: 48;
-    font-family: Verdana, Tahoma, sans-serif
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 h3 {
@@ -38,3 +40,7 @@ img {
     width: 50%;
        
 }
+nav {ont: Garamond;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;}
