@@ -1,4 +1,4 @@
-// find id function with loop
+
 export function findById(items, id) {
     for (let i = 0; i < items.length; i++) {
         const item = items[i];
@@ -14,11 +14,25 @@ export function toUSD(number) {
         currency: 'USD'
     });
 }
-export function calcLineItem(quantity, Price) {
-    const amount = (quantity * Price);
-    //do I need round currency?
-    return amount;
+export function calcLineTotal(quantity, Price) {
+    const amount = quantity * Price;
+    return roundCurency(amount);
 }
+
+function roundCurrency(amount) {
+    return Math.round(amount* 100/100);
+}
+
+export function calcOrderTotal(cart, fruits) {let orderTotal = 0;
+    for (let i = 0; i < cart.length; i++) {
+        const lineItem = cart [i];
+        const tea = findById (tea, lineItem.id;
+            cosnt lineTotal = (calcLineTotal.quantity, tea.price);
+            orderTotal += lineTotal;
+        }
+        return orderTotal
+    
+    }};
 // if I do not need round currency this is all b.s. 
 // function roundCurrency(amount) {
 //     return Math.round(amount * 100) / 100;
