@@ -1,17 +1,17 @@
 import cart from '../data/cart.js';
-import tea from '../tea.js';
-import { findById, calcOrderTotal } from '../common/utils.js';
-import renderLineItem from './render-line-item.js/index.js';
+import teas from '../tea.js';
+import { findById, calcOrderTotal, toUSD } from '../common/utils.js';
+import renderLineItem from './render-line-item.js';
 
-const tbody = document.querySeclector('tbody');
+const tbody = document.querySelector('tbody');
 const orderTotalCell = document.getElementById('order-total-cell');
 
 for (let i = 0; i < cart.length; i ++) { 
     const lineItem = cart[i];
-    const tea = findById(tea, lineItem.id);
+    const tea = findById(teas, lineItem.id);
     const dom = renderLineItem(lineItem, tea);
 
     tbody.appendChild(dom);
 }
-const orderTotal = calcOrderTotal(cart, tea);
-orderTotalCell.textContent = (orderTotal);
+const orderTotal = calcOrderTotal(cart, teas);
+orderTotalCell.textContent = toUSD(orderTotal);

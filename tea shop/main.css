@@ -2,8 +2,8 @@
 
 header {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: white;
 }
@@ -19,7 +19,7 @@ body {
     background-color: lightseagreen;
     text-align: center;
     font-size: 48;
-    font-family: Verdana, Tahoma, sans-serif
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 h3 {

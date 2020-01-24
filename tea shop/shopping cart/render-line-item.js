@@ -1,6 +1,7 @@
 import { toUSD } from '../common/utils.js';
 
 function renderLineItem(lineItem, tea) {
+    console.log(tea.price);
     const tr = document.createElement('tr');
 
     const nameCell = document.createElement('td');
@@ -8,7 +9,7 @@ function renderLineItem(lineItem, tea) {
     nameCell.textContent = tea.name;
     tr.appendChild(nameCell);
 
-    const quantityCell = document.createElememnt('td');
+    const quantityCell = document.createElement('td');
     quantityCell.textContent = lineItem.quantity;
     tr.appendChild(quantityCell);
 
@@ -16,7 +17,7 @@ function renderLineItem(lineItem, tea) {
     priceCell.textContent = toUSD(tea.price);
     tr.appendChild(priceCell);
 
-    const totalCell = document.createElementNS('td');
+    const totalCell = document.createElement('td');
     totalCell.className = 'line-item-total';
     const total = lineItem.quantity * tea.price;
     totalCell.textContent = toUSD(total);

@@ -22,16 +22,3 @@ test('calculate line item', assert => {
     const total = calcLineTotal(quantity, Price);
     assert.equal(total, expected);
 });
-
-const 
-//     //Arrange
-//     // Set up your parameters and expectations
-
-
-//     //Act 
-//     // Call the function you're testing and set the result to a const
-
-//     //Assert
-//     // Make assertions about what is expected valid result
-
-// });
