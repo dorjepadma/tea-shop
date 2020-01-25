@@ -1,11 +1,11 @@
-import { toUSD } from '../common/utils.js.js.js';
+import { toUSD } from '../common/utils.js';
 
 function renderLineItem(lineItem, tea) {
     console.log(tea.price);
     const tr = document.createElement('tr');
 
     const nameCell = document.createElement('td');
-    nameCell.className = 'align-left;';
+    nameCell.classList = 'align-left;';
     nameCell.textContent = tea.name;
     tr.appendChild(nameCell);
 

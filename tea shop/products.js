@@ -1,5 +1,6 @@
+
 import teas from './tea.js';
-import sortTea from './sort-tea.js';
+import sortTea from '../tea shop/sort-tea.js';
 
 const list = document.getElementById('tea');
 

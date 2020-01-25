@@ -1,4 +1,4 @@
-import { findById, toUSD } from '../';
+import { findById, toUSD } from '../tea shop/common/utils.js';
 
 function sortTea(tea) {
     const li = document.createElement('li');
@@ -23,7 +23,7 @@ function sortTea(tea) {
 
     const button = document.createElement ('button');
     button.textContent = 'Add Tea';
-    button.value = tea.id;
+    button.value = tea.code;
     button.addEventListener('click', () => {
         let json = localStorage.getItem('CART');
         let cart;
@@ -47,7 +47,7 @@ function sortTea(tea) {
         json = JSON.stringify(cart);
         localStorage.setItem('CART', json);
 
-        alert('1 ' + tea.name + 'added to cart');
+        alert('1' + tea.name + 'added to cart');
 
     });
     p.appendChild(button);

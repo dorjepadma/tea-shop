@@ -17,6 +17,7 @@
     margin-bottom: 5px;
     text-align: center;
     transition: transform 200ms ease-in-out;
+    flex-flow: wrap;
 
 }
 
@@ -25,7 +26,7 @@
     transform: translated (-1px,-1px,0) what does this do?
 }
 #teas li h3 {
-    font-size: 1;
+    font-size: 10;
     margin: 5px;
 }
 img{
@@ -33,7 +34,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    align: center;
+    align-items: center;
 }
 
 .price {
@@ -53,9 +54,9 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    align-self: auto;
 
 }
-
 .price button:hover {
     background: lightgray;
     color: white;

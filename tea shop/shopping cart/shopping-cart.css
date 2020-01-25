@@ -35,15 +35,12 @@ tbody {
 tbody tr:nth-child(even) {
     background: black;
 }
-
 tbody td {
     font-size: 0.9rem;
 }
-
 .line-item-total {
     font-weight: bolder;
 }
-
 tfoot {
     background: rgb(153, 153, 153);
     color: white;

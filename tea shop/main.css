@@ -10,15 +10,16 @@ header {
 
 h2 {
     font: Garamond;
+    font-size: 48;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 body {
-    background-color: lightseagreen;
+    background-color: rgb(43, 119, 115);
     text-align: center;
-    font-size: 48;
+    font-size: 36;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -26,11 +27,12 @@ h3 {
     font-size: 36;
     text-align: center;
 }
-
+a {
+    font-size: 28px;
+    color: chartreuse;
+}
 .tea-master-image {
-    height: 250px;
-    margin-top: 50px;
-    align-content: center;
+   border: 5px black;
 }
 img {
     display: block;
@@ -38,9 +40,10 @@ img {
     margin-right: auto;
     height: 150;
     width: 50%;
-       
+    border: 5px;
+    border-color: rgb(1, 66, 1);
 }
-nav {ont: Garamond;
+nav {font: Garamond;
     text-align: center;
     margin-left: auto;
     margin-right: auto;}

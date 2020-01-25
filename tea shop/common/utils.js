@@ -27,8 +27,8 @@ export function calcOrderTotal(cart, teas) {let orderTotal = 0;
     for (let i = 0; i < cart.length; i++) {
         const lineItem = cart[i];
         const tea = findById (teas, lineItem.id);
-        const lineTotal = (calcLineTotal.quantity, tea.price);
-        orderTotal + lineTotal;
+        const lineTotal = calcLineTotal (lineItem.quantity, tea.price);
+        orderTotal += lineTotal;
     }
     return orderTotal;
     
